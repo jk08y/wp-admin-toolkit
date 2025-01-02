@@ -1,0 +1,86 @@
+/* File: assets/css/admin.css */
+.wpatk-settings-header {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.wpatk-color-preview {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.wpatk-media-preview {
+    max-width: 200px;
+    max-height: 100px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.wpatk-media-preview.has-image {
+    display: block;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.wpatk-checkbox-group {
+    margin: 10px 0;
+}
+
+.wpatk-checkbox-group label {
+    display: block;
+    margin: 5px 0;
+}
+
+.wpatk-description {
+    color: #666;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.wpatk-code-editor {
+    min-height: 300px;
+    font-family: monospace;
+    resize: vertical;
+}
+
+/* Custom styling for color picker */
+.wp-picker-container {
+    display: inline-block;
+}
+
+/* Media uploader button styles */
+.wpatk-upload-button {
+    margin-right: 10px !important;
+}
+
+/* Settings tabs styling */
+.wpatk-tab-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .form-table td input[type="text"],
+    .form-table td input[type="email"],
+    .form-table td input[type="url"],
+    .form-table td textarea {
+        width: 100%;
+    }
+    
+    .wpatk-media-preview {
+        max-width: 100%;
+    }
+}
