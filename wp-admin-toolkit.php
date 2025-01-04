@@ -3,7 +3,7 @@
  * Plugin Name: WP Admin Toolkit
  * Plugin URI: https://github.com/jk08y/wp-admin-toolkit
  * Description: A comprehensive toolkit for customizing WordPress admin experience with advanced features
- * Version: 2.0.0
+ * Version: 2.0.1
  * Author: Kimutai Joel
  * Author URI: https://github.com/jk08y
  * License: GPL v2 or later
